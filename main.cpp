@@ -31,7 +31,7 @@ LOOP:	std::cout << "Please select one of the following options by entering the n
 	case '4':
 	case '5':
 	default:
-		std::cout << "Invalid input. ";
+		std::cout << "Invalid input.1 ";
 		goto LOOP;
 	}
 
