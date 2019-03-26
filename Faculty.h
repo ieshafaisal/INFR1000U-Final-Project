@@ -4,11 +4,11 @@
 
 struct Faculty
 {
-	std::string name;
+	std::string name[50];
 	int ID;
-	std::string address;
-	std::string dob;
-	std::string email;
+	std::string address[100];
+	std::string dob[20];
+	std::string email[20];
 };
 
 #endif // !Faculty
